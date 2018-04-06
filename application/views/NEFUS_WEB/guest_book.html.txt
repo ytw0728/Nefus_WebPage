@@ -1,0 +1,36 @@
+[ 방명록 기능 ]
+
+action = ''; ( 미정 )
+method = 'post';
+
+datas = {
+	방명록{
+		name : 'guest_message',
+		type : 'textarea',
+		required data
+	}
+}
+
+성공{
+	방명록 추가 기능 후
+	
+	guest_book.html 로 리다이렉트
+}
+실패{
+	실패 메시지 출력 후
+	
+	guest_book.html 로 리다이렉트
+}
+
+
+___________________________________________________________________________________________
+
+[ 방명록 표시 ]
+
+guest_book.html 참고 
+
+guest_book.html 속 방명록 부분 
+
+div.messages > ul > li 부분
+
+형식 맞춰서 서버 측에서 출력

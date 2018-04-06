@@ -1,0 +1,476 @@
+/*show*/
+@media (max-width: 800px){
+	@-webkit-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 4.5rem;
+		}
+		40%{
+			right: 9rem;
+		}
+		60%{
+			right: 13.5rem;
+		}
+		80%{
+			right: 18rem;
+		}
+		100%{
+			right : 22.5rem;
+		}
+	}
+		
+	@-ms-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 4.5rem;
+		}
+		40%{
+			right: 9rem;
+		}
+		60%{
+			right: 13.5rem;
+		}
+		80%{
+			right: 18rem;
+		}
+		100%{
+			right : 22.5rem;
+		}
+	}
+
+	@-moz-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 4.5rem;
+		}
+		40%{
+			right: 9rem;
+		}
+		60%{
+			right: 13.5rem;
+		}
+		80%{
+			right: 18rem;
+		}
+		100%{
+			right : 22.5rem;
+		}
+	}
+
+	@-o-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 4.5rem;
+		}
+		40%{
+			right: 9rem;
+		}
+		60%{
+			right: 13.5rem;
+		}
+		80%{
+			right: 18rem;
+		}
+		100%{
+			right : 22.5rem;
+		}
+	}
+	@keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 4.5rem;
+		}
+		40%{
+			right: 9rem;
+		}
+		60%{
+			right: 13.5rem;
+		}
+		80%{
+			right: 18rem;
+		}
+		100%{
+			right : 22.5rem;
+		}	
+	}	
+}
+@media (min-width: 801px){
+	@-webkit-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 3rem;
+		}
+		40%{
+			right: 6rem;
+		}
+		60%{
+			right: 9rem;
+		}
+		80%{
+			right: 12rem;
+		}
+		100%{
+			right: 15rem;
+		}
+	}
+		
+	@-ms-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 3rem;
+		}
+		40%{
+			right: 6rem;
+		}
+		60%{
+			right: 9rem;
+		}
+		80%{
+			right: 12rem;
+		}
+		100%{
+			right: 15rem;
+		}
+	}
+
+	@-moz-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 3rem;
+		}
+		40%{
+			right: 6rem;
+		}
+		60%{
+			right: 9rem;
+		}
+		80%{
+			right: 12rem;
+		}
+		100%{
+			right: 15rem;
+		}
+	}
+
+	@-o-keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 3rem;
+		}
+		40%{
+			right: 6rem;
+		}
+		60%{
+			right: 9rem;
+		}
+		80%{
+			right: 12rem;
+		}
+		100%{
+			right: 15rem;
+		}
+	}
+	@keyframes show_menubar{
+		0%{
+			right: 0rem;
+		}
+		20%{
+			right: 3rem;
+		}
+		40%{
+			right: 6rem;
+		}
+		60%{
+			right: 9rem;
+		}
+		80%{
+			right: 12rem;
+		}
+		100%{
+			right: 15rem;
+		}	
+	}
+}
+/*unshow*/
+@media (max-width: 800px){
+	@-ms-keyframes unshow_menubar{
+			0%{
+				right : 22.5rem;
+			}
+			20%{
+				right: 18rem;
+			}
+			40%{
+				right: 13.5rem;
+			}
+			60%{
+				right: 9rem;
+			}
+			80%{
+				right: 4.5rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@-moz-keyframes unshow_menubar{
+			0%{
+				right : 22.5rem;
+			}
+			20%{
+				right: 18rem;
+			}
+			40%{
+				right: 13.5rem;
+			}
+			60%{
+				right: 9rem;
+			}
+			80%{
+				right: 4.5rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@-ms-keyframes unshow_menubar{
+			0%{
+				right : 22.5rem;
+			}
+			20%{
+				right: 18rem;
+			}
+			40%{
+				right: 13.5rem;
+			}
+			60%{
+				right: 9rem;
+			}
+			80%{
+				right: 4.5rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@-o-keyframes unshow_menubar{
+			0%{
+				right : 22.5rem;
+			}
+			20%{
+				right: 18rem;
+			}
+			40%{
+				right: 13.5rem;
+			}
+			60%{
+				right: 9rem;
+			}
+			80%{
+				right: 4.5rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@keyframes unshow_menubar{
+			0%{
+				right : 22.5rem;
+			}
+			20%{
+				right: 18rem;
+			}
+			40%{
+				right: 13.5rem;
+			}
+			60%{
+				right: 9rem;
+			}
+			80%{
+				right: 4.5rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+}
+@media (min-width: 800px){
+	@-ms-keyframes unshow_menubar{
+			0%{
+				right: 15rem;
+			}
+			20%{
+				right: 12rem;
+			}
+			40%{
+				right:9rem;
+			}
+			60%{
+				right:6rem;
+			}
+			80%{
+				right:3rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@-moz-keyframes unshow_menubar{
+			0%{
+				right: 15rem;
+			}
+			20%{
+				right: 12rem;
+			}
+			40%{
+				right:9rem;
+			}
+			60%{
+				right:6rem;
+			}
+			80%{
+				right:3rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@-ms-keyframes unshow_menubar{
+			0%{
+				right: 15rem;
+			}
+			20%{
+				right: 12rem;
+			}
+			40%{
+				right:9rem;
+			}
+			60%{
+				right:6rem;
+			}
+			80%{
+				right:3rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@-o-keyframes unshow_menubar{
+			0%{
+				right: 15rem;
+			}
+			20%{
+				right: 12rem;
+			}
+			40%{
+				right:9rem;
+			}
+			60%{
+				right:6rem;
+			}
+			80%{
+				right:3rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}
+	@keyframes unshow_menubar{
+			0%{
+				right: 15rem;
+			}
+			20%{
+				right: 12rem;
+			}
+			40%{
+				right:9rem;
+			}
+			60%{
+				right:6rem;
+			}
+			80%{
+				right:3rem;
+			}
+			100%{
+				right : 0rem;
+			}
+	}	
+}
+/*loading*/
+@keyframes loading_text{
+	0%{
+		color: rgba(255,255,255,0);
+	}
+	50%{
+		color: rgba(255,255,255,1);
+	}
+	100%{
+		color: rgba(255,255,255,0);
+	}
+}
+
+@-webkit-keyframes loading_text{
+	0%{
+		color: rgba(255,255,255,0);
+	}
+	50%{
+		color: rgba(255,255,255,1);
+	}
+	100%{
+		color: rgba(255,255,255,0);
+	}
+}
+
+@-moz-keyframes loading_text{
+	0%{
+		color: rgba(255,255,255,0);
+	}
+	50%{
+		color: rgba(255,255,255,1);
+	}
+	100%{
+		color: rgba(255,255,255,0);
+	}
+}
+
+@-ms-keyframes loading_text{
+	0%{
+		color: rgba(255,255,255,0);
+	}
+	50%{
+		color: rgba(255,255,255,1);
+	}
+	100%{
+		color: rgba(255,255,255,0);
+	}
+}
+
+@-o-keyframes loading_text{
+	0%{
+		color: rgba(255,255,255,0);
+	}
+	50%{
+		color: rgba(255,255,255,1);
+	}
+	100%{
+		color: rgba(255,255,255,0);
+	}
+}

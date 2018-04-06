@@ -1,0 +1,160 @@
+
+@media (max-width: 600px){
+	.mobile{
+		display: inline;
+		font-size: 1.3rem;
+	}
+	.menu{
+		display: none;
+	}
+	header{
+		height: 4rem;
+	}
+		header .header_logo{
+			line-height: 4rem;
+		}
+		header .header_menu ul{
+			line-height: 4rem;
+		}
+	div.top_text_box > p{
+		font-size: 5rem;
+	}
+	.menus{
+		font-size: 1.0rem;
+	}
+	nav{
+		font-size: 1.0em;
+	}
+}
+@media (min-width: 601px){
+	.mobile{
+		display: inline;
+		font-size: 1.5em;
+	}
+	.menu{
+		display: none;
+	}
+	header{
+		height: 5rem;
+	}
+		header .header_logo{
+			line-height: 5rem;
+		}
+		header .header_menu ul{
+			line-height: 5rem;
+		}
+	div.top_text_box > p{
+		font-size: 6rem;
+	}
+	.menus{
+		font-size: 1.3rem;
+	}
+	nav{
+		font-size: 1.5em;
+	}
+}
+@media (min-width: 801px){
+	/*
+	.mobile{
+		display: none;
+	}
+	.menu{
+		display: inline;
+	}
+	*/
+	.mobile{
+		display: inline;
+		/*font-size: 1em;*/
+	}
+	.menu{
+		display: none;
+	}
+
+	header{
+		height: 3rem;
+	}
+		header .header_logo{
+			line-height: 3rem;
+		}
+
+		header .header_menu ul{
+			line-height: 3rem;
+		}
+	div.top_text_box > p{
+		font-size: 4rem;
+	}
+	.menus{
+		font-size: 1rem;
+	}
+	nav{
+		font-size: 1em;
+	}
+}
+@media (min-width: 1001px){
+	.mobile{
+		display: inline;
+		font-size: 1.8rem;
+	}
+	.menu{
+		display: none;
+	}
+	header{
+		height: 5rem;
+	}
+		header .header_logo{
+			line-height: 5rem;
+		}
+		header .header_menu ul{
+			line-height: 5rem;
+		}
+	div.top_text_box > p{
+		font-size: 6rem;
+	}
+	.menus{
+		font-size: 1.5rem;
+	}
+	nav{
+		font-size: 1.8em;
+	}	
+}
+
+
+
+@media (max-width:600px){
+	#result article > section  > container >  div{
+		width: 100%;
+	}
+	footer{
+		height: 8rem;
+		line-height: 1.5rem;
+	}
+		footer .item{
+			display: block;
+			padding-right: 1rem;
+		}
+
+}
+@media (min-width:601px) and (max-width:800px){
+	#result article > section  > container >  div{
+		width: 50%;
+	}
+	footer{
+		height: 4rem;
+		line-height: 1.5rem;
+	}
+		footer > span.policy{
+			line-height:4rem;
+		}
+}
+@media (min-width: 801px){
+	#result article > section  > container >  div{
+		width: 50%;
+	}
+	footer{
+		height: 2.5rem;
+		line-height: 1.2rem;
+	}
+		footer > span.policy{
+			line-height: 2.5rem;
+		}
+}

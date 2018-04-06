@@ -1,0 +1,124 @@
+header.login{
+	background: rgb(0,80,80);
+}
+
+span.title_message{
+	font-family: 'NanumGothic';
+	font-weight: bold;
+	display: block;
+	padding: 1rem 0;
+
+	color: #333;
+}
+span.title{
+	font-family: 'NanumGothic';
+	font-weight: bold;
+	font-size: 1.5rem;
+	display: block;
+	padding: 1rem 0;
+
+	color: #333;
+}
+form#users_form{
+	margin: 1rem 0;
+	padding-top: 0;
+}
+	form *{
+		font-family: 'NanumGothic';
+	}
+	textarea{
+		display: inline-block;
+		width: 80%;
+		border: .2rem #004c4c solid;
+		background: rgb(240,240,240);
+		color: #aaa;
+		resize: none;
+		letter-spacing: .05rem;
+		font-weight: bold;
+
+
+		padding: .5rem;
+		height: 5rem;
+
+		box-sizing: content-box;
+		-webkit-box-sizing: content-box;
+		-moz-box-sizing: content-box;
+		-ms-box-sizing: content-box;
+		-o-box-sizing: content-box;
+	}
+	textarea:focus{
+		color: #555;
+		outline: none;
+	}
+	label.submit{
+		display: inline-block;
+		vertical-align: top;
+		font-size: 2rem;
+
+		background: #004c4c;
+		cursor: pointer;
+		
+		line-height: 6rem;
+		width: 3rem;
+		height: 6rem;
+		
+		border: .2rem #004c4c solid;
+		border-radius: 0 .5rem .5rem 0;
+
+		color: white;
+	}
+	input[type=submit]{
+		display: none;
+	}
+div.card{
+	display: block;
+	margin: 0 auto;
+
+	width: 80%;
+
+	padding: 1rem 1rem;
+	background: white;
+
+	border-radius: .5rem;
+
+	box-shadow: 0px 0px 1rem rgb(200,200,200);
+	-webkit-box-shadow: 0px 0px 1rem rgb(200,200,200);
+	-moz-box-shadow: 0px 0px 1rem rgb(200,200,200);
+	-ms-box-shadow: 0px 0px 1rem rgb(200,200,200);
+	-o-box-shadow: 0px 0px 1rem rgb(200,200,200);
+}
+	div.messages{
+		width:90%;
+
+		margin: 0 auto;
+		text-align: left;
+		margin-top: 2rem;
+	}
+		div.messages > ul{
+			list-style: none;
+			padding: 1rem;
+			background: rgb(240,240,240);
+		}
+			div.messages > ul > li{
+				padding: 1rem 0;
+				line-height: 1.5rem;
+				letter-spacing: .05rem;
+				
+				border-bottom: .1rem solid rgb(200,200,200);
+				color: #555;
+			}
+
+			div.messages > ul > li > span{
+				display: block;
+				padding-top: .5rem;
+				font-size: .7rem;
+
+				color: #aaa;
+			}
+p.notice{
+	margin-top: 2rem; 
+	color: #aaa; 
+	font-size: .8rem;
+	line-height: 1.2rem;
+	letter-spacing: .03rem;
+}

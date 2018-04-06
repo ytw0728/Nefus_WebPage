@@ -1,0 +1,3 @@
+The index.html file in this directory is made to block Apache's auto directory listing.
+
+If you want to block listing, do not remove the index.html file or change the listing-config-settings of Web Server's config.
